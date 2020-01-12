@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Header.css'
 
 //functional component
 const Header = function () {
@@ -10,7 +11,7 @@ const Header = function () {
         textTransform: 'uppercase'
     };
     return (
-        <div style={headerStyle}>
+        <div className='header'>
             Phone Directory
         </div>
     )
